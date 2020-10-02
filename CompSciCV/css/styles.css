@@ -1,0 +1,22 @@
+body {
+  background-color: #ffeadb;
+}
+
+hr {
+  border-style: none;
+  background-color: white;
+  height: 2px;
+  width: 50%
+}
+h1 {
+  color: #679b9b;
+}
+h3 {
+  color: #679b9b;
+}
+img {
+  border-radius: 80%;
+}
+img:hover {
+  border-radius: 1%;
+}

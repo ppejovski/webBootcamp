@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+
+.top-container {
+  background-color: orange;
+  padding: 20px;
+}
+.top-cloud {
+  position: relative;
+  left: 33%;
+}
+.bottom-cloud {
+  position: relative;
+  right: 33%;
+}
+.mountain {
+  width: 80%;
+}
