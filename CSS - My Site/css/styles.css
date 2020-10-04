@@ -1,9 +1,17 @@
 body {
   margin: 0;
   text-align: center;
+
 }
 h1 {
   margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+p {
+  font-family: 'Noto Sans HK', sans-serif;
+}
+.skills-image {
+  width: 100px;
 }
 
 .top-container {
@@ -20,4 +28,8 @@ h1 {
 }
 .mountain {
   width: 80%;
+}
+
+.credits {
+  font-size: 10px;
 }
