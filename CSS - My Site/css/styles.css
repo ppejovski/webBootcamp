@@ -6,16 +6,52 @@ body {
 h1 {
   margin: 0;
   font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
+  margin: 50px 0px -20px 0px;
+}
+h2 {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 1rem;
 }
 p {
   font-family: 'Noto Sans HK', sans-serif;
+  font-size: .85rem;
 }
-.skills-image {
-  width: 100px;
+h3 {
+  margin-bottom: -10px;
+  color: #ff9a76;
+}
+
+hr {
+  border-style: dotted;
+  width: 10%;
+  border-width: 5px 0 0 0;
+  color: #ffeadb;
+
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-image1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
 .top-container {
-  background-color: orange;
+  background-color: #f8bd7f;
   padding: 20px;
 }
 .top-cloud {
@@ -27,9 +63,26 @@ p {
   right: 33%;
 }
 .mountain {
-  width: 50%;
+  width: 70%;
+  margin-bottom: -23px;
 }
 
 .credits {
   font-size: 10px;
+}
+
+.header-picture {
+  margin-top: 30px;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.header-description {
+  width: 50%;
+  margin: 0 auto 5% auto;
+}
+
+.footer-description {
+  width: 50%;
+  margin: 0 auto 5% auto;
 }
