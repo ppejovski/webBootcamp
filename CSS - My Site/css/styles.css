@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+  background-color: #fafafa;
 
 }
 h1 {
@@ -13,6 +14,7 @@ h2 {
   font-family: 'Noto Sans HK', sans-serif;
   font-size: 1rem;
 }
+
 p {
   font-family: 'Noto Sans HK', sans-serif;
   font-size: .85rem;
@@ -27,8 +29,19 @@ hr {
   width: 10%;
   border-width: 5px 0 0 0;
   color: #ffeadb;
+}
 
+a {
+  color: #2a3d66;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
 
+.titles {
+  font-size: 1.5rem;
+  color: #9d65c9;
 }
 
 .skill-row {
@@ -51,12 +64,15 @@ hr {
 }
 
 .top-container {
-  background-color: #f8bd7f;
+  background-color: #ffd9a8;
   padding: 20px;
 }
 .top-cloud {
   position: relative;
   left: 33%;
+}
+.cloud-img {
+  width: 25%;
 }
 .bottom-cloud {
   position: relative;
@@ -85,4 +101,13 @@ hr {
 .footer-description {
   width: 50%;
   margin: 0 auto 5% auto;
+}
+
+.bottom-container {
+  padding: 10px 10px 20px 10px;
+  background-color: #e09346;
+}
+
+.middle-container {
+  background-color: #fafafa;
 }
